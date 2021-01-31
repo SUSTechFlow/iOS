@@ -1,0 +1,8 @@
+app_identifier("top.sustechflow.SUSTechFlow") # The bundle identifier of your app
+apple_id("734849165@qq.com") # Your Apple email address
+
+itc_team_id("122429392") # App Store Connect Team ID
+team_id("Y3B7WR9CG5") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
