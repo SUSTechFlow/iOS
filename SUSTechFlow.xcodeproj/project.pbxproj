@@ -34,6 +34,28 @@
 		0E1D8AFF257E741E00C6BD5A /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D8AFE257E741E00C6BD5A /* Bus.swift */; };
 		0E1D8B07257E753E00C6BD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
 		0E1D8B1E257E754000C6BD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
+		0E1E475025C6BC9D002A7CF7 /* WikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474425C6BC9D002A7CF7 /* WikiView.swift */; };
+		0E1E475125C6BC9D002A7CF7 /* WikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474425C6BC9D002A7CF7 /* WikiView.swift */; };
+		0E1E475225C6BC9D002A7CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474525C6BC9D002A7CF7 /* ContentView.swift */; };
+		0E1E475325C6BC9D002A7CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474525C6BC9D002A7CF7 /* ContentView.swift */; };
+		0E1E475425C6BC9D002A7CF7 /* flowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E474625C6BC9D002A7CF7 /* flowitems.json */; };
+		0E1E475525C6BC9D002A7CF7 /* flowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E474625C6BC9D002A7CF7 /* flowitems.json */; };
+		0E1E475625C6BC9D002A7CF7 /* MyFlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474725C6BC9D002A7CF7 /* MyFlowsView.swift */; };
+		0E1E475725C6BC9D002A7CF7 /* MyFlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474725C6BC9D002A7CF7 /* MyFlowsView.swift */; };
+		0E1E475825C6BC9D002A7CF7 /* FlowGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474825C6BC9D002A7CF7 /* FlowGroupView.swift */; };
+		0E1E475925C6BC9D002A7CF7 /* FlowGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474825C6BC9D002A7CF7 /* FlowGroupView.swift */; };
+		0E1E475A25C6BC9D002A7CF7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474925C6BC9D002A7CF7 /* FlowItemView.swift */; };
+		0E1E475B25C6BC9D002A7CF7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474925C6BC9D002A7CF7 /* FlowItemView.swift */; };
+		0E1E475C25C6BC9D002A7CF7 /* FlowGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474A25C6BC9D002A7CF7 /* FlowGroup.swift */; };
+		0E1E475D25C6BC9D002A7CF7 /* FlowGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474A25C6BC9D002A7CF7 /* FlowGroup.swift */; };
+		0E1E475E25C6BC9D002A7CF7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474B25C6BC9D002A7CF7 /* CalendarView.swift */; };
+		0E1E475F25C6BC9D002A7CF7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474B25C6BC9D002A7CF7 /* CalendarView.swift */; };
+		0E1E476025C6BC9D002A7CF7 /* flowgroups.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E474C25C6BC9D002A7CF7 /* flowgroups.json */; };
+		0E1E476125C6BC9D002A7CF7 /* flowgroups.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E474C25C6BC9D002A7CF7 /* flowgroups.json */; };
+		0E1E476425C6BC9D002A7CF7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474E25C6BC9D002A7CF7 /* ModelData.swift */; };
+		0E1E476525C6BC9D002A7CF7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474E25C6BC9D002A7CF7 /* ModelData.swift */; };
+		0E1E476625C6BC9D002A7CF7 /* FlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474F25C6BC9D002A7CF7 /* FlowItem.swift */; };
+		0E1E476725C6BC9D002A7CF7 /* FlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E474F25C6BC9D002A7CF7 /* FlowItem.swift */; };
 		0E4733FB25780E0F00752341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
 		0E473417257900A800752341 /* BusPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E473416257900A800752341 /* BusPosition.swift */; };
 		0E473418257900A800752341 /* BusPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E473416257900A800752341 /* BusPosition.swift */; };
@@ -47,8 +69,8 @@
 		0E821DCF257015C500A31450 /* SUSTechFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA2257015C400A31450 /* SUSTechFlow.xcdatamodeld */; };
 		0E821DD0257015C500A31450 /* SUSTechFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA4257015C400A31450 /* SUSTechFlowApp.swift */; };
 		0E821DD1257015C500A31450 /* SUSTechFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA4257015C400A31450 /* SUSTechFlowApp.swift */; };
-		0E821DD2257015C500A31450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA5257015C400A31450 /* ContentView.swift */; };
-		0E821DD3257015C500A31450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA5257015C400A31450 /* ContentView.swift */; };
+		0E821DD2257015C500A31450 /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA5257015C400A31450 /* BusView.swift */; };
+		0E821DD3257015C500A31450 /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA5257015C400A31450 /* BusView.swift */; };
 		0E821DD4257015C500A31450 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA6257015C400A31450 /* Persistence.swift */; };
 		0E821DD5257015C500A31450 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA6257015C400A31450 /* Persistence.swift */; };
 		0E821DD6257015C500A31450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
@@ -154,12 +176,23 @@
 		0E1D8AE2257E72BB00C6BD5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		0E1D8AF5257E740700C6BD5A /* BusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
 		0E1D8AFE257E741E00C6BD5A /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		0E1E474425C6BC9D002A7CF7 /* WikiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiView.swift; sourceTree = "<group>"; };
+		0E1E474525C6BC9D002A7CF7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E1E474625C6BC9D002A7CF7 /* flowitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowitems.json; sourceTree = "<group>"; };
+		0E1E474725C6BC9D002A7CF7 /* MyFlowsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowsView.swift; sourceTree = "<group>"; };
+		0E1E474825C6BC9D002A7CF7 /* FlowGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowGroupView.swift; sourceTree = "<group>"; };
+		0E1E474925C6BC9D002A7CF7 /* FlowItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowItemView.swift; sourceTree = "<group>"; };
+		0E1E474A25C6BC9D002A7CF7 /* FlowGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowGroup.swift; sourceTree = "<group>"; };
+		0E1E474B25C6BC9D002A7CF7 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		0E1E474C25C6BC9D002A7CF7 /* flowgroups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowgroups.json; sourceTree = "<group>"; };
+		0E1E474E25C6BC9D002A7CF7 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0E1E474F25C6BC9D002A7CF7 /* FlowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowItem.swift; sourceTree = "<group>"; };
 		0E473416257900A800752341 /* BusPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPosition.swift; sourceTree = "<group>"; };
 		0E47342B2579053700752341 /* BusPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPositionView.swift; sourceTree = "<group>"; };
 		0E5782DA257D2204003F14DF /* BusSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSchedule.swift; sourceTree = "<group>"; };
 		0E821DA3257015C400A31450 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		0E821DA4257015C400A31450 /* SUSTechFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUSTechFlowApp.swift; sourceTree = "<group>"; };
-		0E821DA5257015C400A31450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E821DA5257015C400A31450 /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
 		0E821DA6257015C400A31450 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0E821DA7257015C500A31450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E821DAC257015C500A31450 /* SUSTechFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUSTechFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -281,7 +314,7 @@
 		0E1E472E25C6B9BD002A7CF7 /* Bus */ = {
 			isa = PBXGroup;
 			children = (
-				0E821DA5257015C400A31450 /* ContentView.swift */,
+				0E821DA5257015C400A31450 /* BusView.swift */,
 				0E5782DA257D2204003F14DF /* BusSchedule.swift */,
 				0E15E3752572ECDD008A5809 /* BusRoute.swift */,
 				0E15E37D2572F334008A5809 /* BusRouteView.swift */,
@@ -313,6 +346,17 @@
 				0E1E472E25C6B9BD002A7CF7 /* Bus */,
 				0E821DA4257015C400A31450 /* SUSTechFlowApp.swift */,
 				0E821DA6257015C400A31450 /* Persistence.swift */,
+				0E1E474B25C6BC9D002A7CF7 /* CalendarView.swift */,
+				0E1E474525C6BC9D002A7CF7 /* ContentView.swift */,
+				0E1E474A25C6BC9D002A7CF7 /* FlowGroup.swift */,
+				0E1E474C25C6BC9D002A7CF7 /* flowgroups.json */,
+				0E1E474825C6BC9D002A7CF7 /* FlowGroupView.swift */,
+				0E1E474F25C6BC9D002A7CF7 /* FlowItem.swift */,
+				0E1E474625C6BC9D002A7CF7 /* flowitems.json */,
+				0E1E474925C6BC9D002A7CF7 /* FlowItemView.swift */,
+				0E1E474E25C6BC9D002A7CF7 /* ModelData.swift */,
+				0E1E474725C6BC9D002A7CF7 /* MyFlowsView.swift */,
+				0E1E474425C6BC9D002A7CF7 /* WikiView.swift */,
 				0E821DA7257015C500A31450 /* Assets.xcassets */,
 				0E821DA2257015C400A31450 /* SUSTechFlow.xcdatamodeld */,
 			);
@@ -587,6 +631,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1E475425C6BC9D002A7CF7 /* flowitems.json in Resources */,
+				0E1E476025C6BC9D002A7CF7 /* flowgroups.json in Resources */,
 				0E821DD6257015C500A31450 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +641,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1E475525C6BC9D002A7CF7 /* flowitems.json in Resources */,
+				0E1E476125C6BC9D002A7CF7 /* flowgroups.json in Resources */,
 				0E821DD7257015C500A31450 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,16 +693,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1E476625C6BC9D002A7CF7 /* FlowItem.swift in Sources */,
 				0E821DCE257015C500A31450 /* SUSTechFlow.xcdatamodeld in Sources */,
+				0E1E475625C6BC9D002A7CF7 /* MyFlowsView.swift in Sources */,
+				0E1E476425C6BC9D002A7CF7 /* ModelData.swift in Sources */,
+				0E1E475A25C6BC9D002A7CF7 /* FlowItemView.swift in Sources */,
+				0E1E475E25C6BC9D002A7CF7 /* CalendarView.swift in Sources */,
+				0E1E475825C6BC9D002A7CF7 /* FlowGroupView.swift in Sources */,
 				0E473417257900A800752341 /* BusPosition.swift in Sources */,
+				0E1E475225C6BC9D002A7CF7 /* ContentView.swift in Sources */,
 				0E47342C2579053700752341 /* BusPositionView.swift in Sources */,
 				0E15E3762572ECDD008A5809 /* BusRoute.swift in Sources */,
 				0E821DD4257015C500A31450 /* Persistence.swift in Sources */,
 				0E15E37E2572F334008A5809 /* BusRouteView.swift in Sources */,
+				0E1E475025C6BC9D002A7CF7 /* WikiView.swift in Sources */,
 				0E5782DB257D2204003F14DF /* BusSchedule.swift in Sources */,
 				0E821DD0257015C500A31450 /* SUSTechFlowApp.swift in Sources */,
-				0E821DD2257015C500A31450 /* ContentView.swift in Sources */,
+				0E821DD2257015C500A31450 /* BusView.swift in Sources */,
 				0E15E36025718B30008A5809 /* BusWidget.intentdefinition in Sources */,
+				0E1E475C25C6BC9D002A7CF7 /* FlowGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,15 +719,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1E475725C6BC9D002A7CF7 /* MyFlowsView.swift in Sources */,
+				0E1E475925C6BC9D002A7CF7 /* FlowGroupView.swift in Sources */,
+				0E1E475F25C6BC9D002A7CF7 /* CalendarView.swift in Sources */,
 				0E15E37F2572F334008A5809 /* BusRouteView.swift in Sources */,
+				0E1E475325C6BC9D002A7CF7 /* ContentView.swift in Sources */,
 				0E47342D2579053700752341 /* BusPositionView.swift in Sources */,
 				0E821DCF257015C500A31450 /* SUSTechFlow.xcdatamodeld in Sources */,
 				0E821DD5257015C500A31450 /* Persistence.swift in Sources */,
 				0E473418257900A800752341 /* BusPosition.swift in Sources */,
+				0E1E476725C6BC9D002A7CF7 /* FlowItem.swift in Sources */,
 				0E15E3772572ECDD008A5809 /* BusRoute.swift in Sources */,
+				0E1E476525C6BC9D002A7CF7 /* ModelData.swift in Sources */,
+				0E1E475D25C6BC9D002A7CF7 /* FlowGroup.swift in Sources */,
+				0E1E475125C6BC9D002A7CF7 /* WikiView.swift in Sources */,
 				0E5782DC257D2204003F14DF /* BusSchedule.swift in Sources */,
+				0E1E475B25C6BC9D002A7CF7 /* FlowItemView.swift in Sources */,
 				0E821DD1257015C500A31450 /* SUSTechFlowApp.swift in Sources */,
-				0E821DD3257015C500A31450 /* ContentView.swift in Sources */,
+				0E821DD3257015C500A31450 /* BusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

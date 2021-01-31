@@ -1,0 +1,20 @@
+[
+    {
+        "name": "All Flows",
+        "description": "All flows are listed here",
+        "flowCount": 5,
+        "symbolName": "rectangle.grid.2x2"
+    },
+    {
+        "name": "Coursework Flows",
+        "description": "All flows related to course work are listed here",
+        "flowCount": 2,
+        "symbolName": "graduationcap"
+    },
+    {
+        "name": "Lifestyle Flows",
+        "description": "All flows related to lifestyle are listed here",
+        "flowCount": 3,
+        "symbolName": "star"
+    }
+]

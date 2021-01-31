@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Grades and GPA",
+        "description": "Course grades and GPA records",
+        "colorName": "gray",
+        "groupName": "Coursework Flows",
+        "isFavorite": true,
+        "symbolName": "printer"
+    },
+    {
+        "name": "Deadlines",
+        "description": "Course Assignment Deadlines",
+        "colorName": "red",
+        "groupName": "Coursework Flows",
+        "isFavorite": true,
+        "symbolName": "exclamationmark.3"
+    },
+    {
+        "name": "Administrative Information",
+        "description": "Administrative announcements",
+        "colorName": "orange",
+        "groupName": "Lifestyle Flows",
+        "isFavorite": true,
+        "symbolName": "bell"
+    },
+    {
+        "name": "Lectures and Shows",
+        "description": "Public lectures and shows",
+        "colorName": "purple",
+        "groupName": "Lifestyle Flows",
+        "isFavorite": true,
+        "symbolName": "star.circle"
+    },
+    {
+        "name": "Bus Schedule",
+        "description": "Campus bus schedules",
+        "colorName": "blue",
+        "groupName": "Lifestyle Flows",
+        "isFavorite": true,
+        "symbolName": "bus"
+    }
+]

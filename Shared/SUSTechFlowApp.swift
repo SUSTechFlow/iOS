@@ -13,8 +13,9 @@ struct SUSTechFlowApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(busRoutes: allRoutes)
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ContentView()
+//            BusView(busRoutes: allRoutes)
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

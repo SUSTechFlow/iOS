@@ -156,7 +156,7 @@ struct BusCard: View {
 }
 
 
-struct ContentView: View {
+struct BusView: View {
     //    @Environment(\.managedObjectContext) private var viewContext
     //
     //    @FetchRequest(
@@ -212,23 +212,10 @@ struct ContentView: View {
     
     #if !os(macOS)
     var body : some View {
-        NavigationView {
             main
                 .navigationBarTitle(Text("校园巴士"))
-                .navigationBarItems(
-                    //                leading:
-                    //                Button(action: { print("add") }) {
-                    //                    Image(systemName: "plus")
-                    //                },
-                    trailing:
-                        Button(action: { print("edit") }) {
-                            Text("Edit")
-                        }.disabled(true)
-                )
-        }
     }
     #endif
-    
     #if os(macOS)
     var body: some View {
         NavigationView {
@@ -238,9 +225,9 @@ struct ContentView: View {
     #endif
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BusView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(busRoutes: [
+        BusView(busRoutes: [
             busRoute1,
             busRoute2,
             busRoute3,
