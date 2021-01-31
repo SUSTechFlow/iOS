@@ -35,8 +35,6 @@
 		0E1D8B07257E753E00C6BD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
 		0E1D8B1E257E754000C6BD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
 		0E4733FB25780E0F00752341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
-		0E47340F2579006400752341 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47340E2579006400752341 /* API.swift */; };
-		0E4734102579006400752341 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47340E2579006400752341 /* API.swift */; };
 		0E473417257900A800752341 /* BusPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E473416257900A800752341 /* BusPosition.swift */; };
 		0E473418257900A800752341 /* BusPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E473416257900A800752341 /* BusPosition.swift */; };
 		0E47342C2579053700752341 /* BusPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E47342B2579053700752341 /* BusPositionView.swift */; };
@@ -55,8 +53,6 @@
 		0E821DD5257015C500A31450 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E821DA6257015C400A31450 /* Persistence.swift */; };
 		0E821DD6257015C500A31450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
 		0E821DD7257015C500A31450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E821DA7257015C500A31450 /* Assets.xcassets */; };
-		0E8D564F25702DA800D3ED64 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D564E25702DA800D3ED64 /* FoodDetail.swift */; };
-		0E8D565025702DA800D3ED64 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D564E25702DA800D3ED64 /* FoodDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,7 +154,6 @@
 		0E1D8AE2257E72BB00C6BD5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		0E1D8AF5257E740700C6BD5A /* BusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewModel.swift; sourceTree = "<group>"; };
 		0E1D8AFE257E741E00C6BD5A /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
-		0E47340E2579006400752341 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0E473416257900A800752341 /* BusPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPosition.swift; sourceTree = "<group>"; };
 		0E47342B2579053700752341 /* BusPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPositionView.swift; sourceTree = "<group>"; };
 		0E5782DA257D2204003F14DF /* BusSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSchedule.swift; sourceTree = "<group>"; };
@@ -178,7 +173,6 @@
 		0E821DC7257015C500A31450 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E821DCB257015C500A31450 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0E821DCD257015C500A31450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E8D564E25702DA800D3ED64 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +278,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0E1E472E25C6B9BD002A7CF7 /* Bus */ = {
+			isa = PBXGroup;
+			children = (
+				0E821DA5257015C400A31450 /* ContentView.swift */,
+				0E5782DA257D2204003F14DF /* BusSchedule.swift */,
+				0E15E3752572ECDD008A5809 /* BusRoute.swift */,
+				0E15E37D2572F334008A5809 /* BusRouteView.swift */,
+				0E473416257900A800752341 /* BusPosition.swift */,
+				0E47342B2579053700752341 /* BusPositionView.swift */,
+			);
+			path = Bus;
+			sourceTree = "<group>";
+		};
 		0E821D9C257015C400A31450 = {
 			isa = PBXGroup;
 			children = (
@@ -303,18 +310,11 @@
 		0E821DA1257015C400A31450 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0E1E472E25C6B9BD002A7CF7 /* Bus */,
 				0E821DA4257015C400A31450 /* SUSTechFlowApp.swift */,
-				0E821DA5257015C400A31450 /* ContentView.swift */,
-				0E8D564E25702DA800D3ED64 /* FoodDetail.swift */,
 				0E821DA6257015C400A31450 /* Persistence.swift */,
 				0E821DA7257015C500A31450 /* Assets.xcassets */,
 				0E821DA2257015C400A31450 /* SUSTechFlow.xcdatamodeld */,
-				0E5782DA257D2204003F14DF /* BusSchedule.swift */,
-				0E15E3752572ECDD008A5809 /* BusRoute.swift */,
-				0E15E37D2572F334008A5809 /* BusRouteView.swift */,
-				0E47340E2579006400752341 /* API.swift */,
-				0E473416257900A800752341 /* BusPosition.swift */,
-				0E47342B2579053700752341 /* BusPositionView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -650,8 +650,6 @@
 				0E47342C2579053700752341 /* BusPositionView.swift in Sources */,
 				0E15E3762572ECDD008A5809 /* BusRoute.swift in Sources */,
 				0E821DD4257015C500A31450 /* Persistence.swift in Sources */,
-				0E8D564F25702DA800D3ED64 /* FoodDetail.swift in Sources */,
-				0E47340F2579006400752341 /* API.swift in Sources */,
 				0E15E37E2572F334008A5809 /* BusRouteView.swift in Sources */,
 				0E5782DB257D2204003F14DF /* BusSchedule.swift in Sources */,
 				0E821DD0257015C500A31450 /* SUSTechFlowApp.swift in Sources */,
@@ -670,11 +668,9 @@
 				0E821DD5257015C500A31450 /* Persistence.swift in Sources */,
 				0E473418257900A800752341 /* BusPosition.swift in Sources */,
 				0E15E3772572ECDD008A5809 /* BusRoute.swift in Sources */,
-				0E8D565025702DA800D3ED64 /* FoodDetail.swift in Sources */,
 				0E5782DC257D2204003F14DF /* BusSchedule.swift in Sources */,
 				0E821DD1257015C500A31450 /* SUSTechFlowApp.swift in Sources */,
 				0E821DD3257015C500A31450 /* ContentView.swift in Sources */,
-				0E4734102579006400752341 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
