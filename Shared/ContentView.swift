@@ -21,7 +21,7 @@ struct ContentView: View {
                     Label("My Flows", systemImage: "rectangle.grid.2x2.fill")
                 }
                 .tag(Tab.myFlows)
-            CalendarView()
+            MyCalendarView()
                 .tabItem {
                     Label("Calendar", systemImage: "calendar")
                 }

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0EB7B525C8E9DB00DBD004 /* KVKCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 0E0EB7B425C8E9DB00DBD004 /* KVKCalendar */; };
 		0E15E35525718B2F008A5809 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E15E35425718B2F008A5809 /* WidgetKit.framework */; };
 		0E15E35725718B2F008A5809 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E15E35625718B2F008A5809 /* SwiftUI.framework */; };
 		0E15E35A25718B2F008A5809 /* BusWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15E35925718B2F008A5809 /* BusWidget.swift */; };
@@ -229,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0EB7B525C8E9DB00DBD004 /* KVKCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +485,9 @@
 				0E1D8AE4257E72BB00C6BD5A /* PBXTargetDependency */,
 			);
 			name = "SUSTechFlow (iOS)";
+			packageProductDependencies = (
+				0E0EB7B425C8E9DB00DBD004 /* KVKCalendar */,
+			);
 			productName = "SUSTechFlow (iOS)";
 			productReference = 0E821DAC257015C500A31450 /* SUSTechFlow.app */;
 			productType = "com.apple.product-type.application";
@@ -583,6 +588,9 @@
 				Base,
 			);
 			mainGroup = 0E821D9C257015C400A31450;
+			packageReferences = (
+				0E0EB7B325C8E9DB00DBD004 /* XCRemoteSwiftPackageReference "KVKCalendar" */,
+			);
 			productRefGroup = 0E821DAD257015C500A31450 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1309,6 +1317,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E0EB7B325C8E9DB00DBD004 /* XCRemoteSwiftPackageReference "KVKCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kvyatkovskys/KVKCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E0EB7B425C8E9DB00DBD004 /* KVKCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E0EB7B325C8E9DB00DBD004 /* XCRemoteSwiftPackageReference "KVKCalendar" */;
+			productName = KVKCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0E821DA2257015C400A31450 /* SUSTechFlow.xcdatamodeld */ = {
