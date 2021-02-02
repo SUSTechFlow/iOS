@@ -39,13 +39,14 @@ struct CalendarDisplayView: UIViewRepresentable {
         style.allDay.isPinned = true
         style.startWeekDay = .monday
         style.timeSystem = .twelve
-
+        style.headerScroll.heightHeaderWeek = 80
+        
         style.locale = Locale.current
         style.timezone = TimeZone.current
         
         return CalendarView(frame: UIScreen.main.bounds, style: style)
     }()
-        
+    
     func makeUIView(context: UIViewRepresentableContext<CalendarDisplayView>) -> CalendarView {
         calendar.dataSource = context.coordinator
         calendar.delegate = context.coordinator
@@ -91,7 +92,7 @@ struct CalendarDisplayView: UIViewRepresentable {
         func eventsForCalendar() -> [Event] {
             return events
         }
-
+        
         func didSelectDate(_ date: Date?, type: CalendarType, frame: CGRect?) {
             selectDate = date ?? Date()
             loadEvents { (events) in
@@ -102,48 +103,44 @@ struct CalendarDisplayView: UIViewRepresentable {
         
         func didSelectEvent(_ event: Event, type: CalendarType, frame: CGRect?) {
             switch type {
-                case .day:
-                    toggleDetail(event)
-                    break
-                default:
-                    break
+            case .day:
+                toggleDetail(event)
+                break
+            default:
+                break
             }
         }
         
         func loadEvents(completion: ([Event]) -> Void) {
             
             let events = [Event]()
-    
-//            let response = [] // TODO: fetch data
-//
-//            for (idx, item) in response.enumerated() {
-//
-//                var event = Event()
-//                // ...
-//                events.append(event)
-//            }
+            
+            //            let response = [] // TODO: fetch data
+            //
+            //            for (idx, item) in response.enumerated() {
+            //
+            //                var event = Event()
+            //                // ...
+            //                events.append(event)
+            //            }
             completion(events)
         }
-
     }
     
 }
 
 extension UIViewController {
-  func presentInFullScreen(_ viewController: UIViewController,
-                           animated: Bool,
-                           completion: (() -> Void)? = nil) {
-    viewController.modalPresentationStyle = .fullScreen
-    present(viewController, animated: animated, completion: completion)
-  }
+    func presentInFullScreen(_ viewController: UIViewController,
+                             animated: Bool,
+                             completion: (() -> Void)? = nil) {
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: animated, completion: completion)
+    }
 }
 struct MyCalendarView: View {
     var body: some View {
-        NavigationView {
-            CalendarDisplayView(token: "x", selectDate: Date()) { (x) in
-                print(x)
-            }
-            .navigationBarTitle("Calendar")
+        CalendarDisplayView(token: "x", selectDate: Date()) { (x) in
+            print(x)
         }
     }
 }
