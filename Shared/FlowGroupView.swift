@@ -26,7 +26,7 @@ struct FlowItemCard: View {
                     .frame(width: 130, height: 45, alignment: .bottomLeading)
                 Spacer()
             }
-            .padding(1.0)
+            .padding(1.0)œ
         }
         .padding(7.0)
         .foregroundColor(.white)
@@ -73,7 +73,10 @@ struct FlowGroupView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             FlowGroupView(flowGroup: allFlowGroups[0])
+                .preferredColorScheme(.light)
+                .previewDevice("iPhone 12 mini")
             FlowGroupView(flowGroup: allFlowGroups[0])
+                .preferredColorScheme(.dark)
                 .previewDevice("iPhone 12 mini")
         }
     }
